@@ -15,10 +15,10 @@ class SearchBar extends React.Component {
 
   render() {
     return (
-      <div className="search-bar ui segment">
+      <div className="search-bar ui segment" style={{backgroundColor: 'lightcoral'}}>
         <form onSubmit={this.onFormSubmit} className="ui form">
           <div className="field">
-            <label>Video Search</label>
+            <label style={{alignItems: 'center'}}><img src="/pngwing.com (2).png" style={{maxWidth: 50}} alt=""></img>Video Search</label>
             <input
               type="text"
               value={this.state.term}
